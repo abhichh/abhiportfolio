@@ -1,0 +1,82 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#banner
+{
+    background-image: url('../imgs/IMG_0190.jpg');
+    height:660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.bannerHeading {
+	border: 2px solid #fff;
+	padding: 33px 73px;
+	border-radius: 8px;
+	background: #00000054;
+	color: #c5c5c5;
+}
+
+
+.titleContainer {
+	width: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title
+{
+    width:95%;
+    text-align:left;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 40px;
+    border-right: 1px solid #c6baba;
+    padding: 69px 0px;
+}
+
+.aboutContainer {
+	box-sizing: border-box;
+	padding: 106px;
+}
+
+#about
+{
+    height: 300px;
+    display:flex;
+    flex-flow: row nowrap;
+    font-size:1.4rem;
+}
+
+#education
+{
+    background-image: url('../imgs/montreal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:500px;
+    padding:40px;
+}
+
+.titleEducation {
+	font-size: 3rem;
+	font-weight: 900;
+	text-align: center;
+	padding: 33px 33px 66px 33px;
+	text-shadow: 2px 2px 6px black;
+	color: white;
+}
+
+#resume {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 69px;
+}
