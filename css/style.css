@@ -80,3 +80,28 @@
 	justify-content: center;
 	padding: 69px;
 }
+
+#contact {
+	background-image: url('../imgs/map.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding:30px 0px
+}
+
+.container.contactForm {
+	padding: 50px;
+	background: #00000054;
+	color: white;
+	border-radius: 30px;
+    border:1px solid black;
+    width:70%
+}
+
+footer {
+	background: #282828;
+	color: white;
+	text-align: center;
+	padding-top: 47px;
+	padding-bottom: 14px;
+}
